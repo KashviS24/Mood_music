@@ -1,0 +1,13 @@
+Body{
+    background-color:wheat;
+}
+
+h1{
+    display:block;
+    width: 250px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgb(213, 197, 166);
+    border-radius: 15px;
+    text-align: center;
+}
