@@ -1,5 +1,6 @@
 Body{
-    background-color:wheat;
+    background-image: url(img/sheet-music-1.jpeg);
+    background-size:cover
 }
 
 h1{
