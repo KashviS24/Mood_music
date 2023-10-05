@@ -1,26 +1,40 @@
 Body{
-    background-color:rgb(166, 203, 115);
+    background-color:rgb(14, 14, 56);
 }
 
 h1{
+    position: absolute;
     color:red;
+    bottom: 200px;
+    left: 300px;
     text-align: center;
     font-weight: bold;
-    font-size: 700%;
+    font-size: 800%;
     font-family: Verdana-Bold-Italic;
     text-shadow: -7px 0 yellow, 0 7px yellow, 7px 0 yellow, 0 -7px yellow;
     margin-left: auto;
     margin-right: auto;
 }
 
+img{
+    float:right;
+    margin-top: 50px;
+    transform: rotate(15deg);
+    width: 700px;
+    max-height: auto;
+}
 @font-face{
     font-family: Verdana-Bold-Italic;
     src: url(Fonts/Verdana-Bold-Italic.ttf)
 }
 
 h2{
+    position: absolute;
     color:rgb(4, 4, 119);
+    width: 500px;
     text-align: center;
+    bottom: 400px;
+    left: 100px;
     font-weight: bold;
     font-size: 350%;
     font-family: Verdana-Bold-Italic;

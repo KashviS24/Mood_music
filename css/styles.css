@@ -4,6 +4,9 @@ Body{
     background-color:orangered;
 }
 
+audio{
+    margin-top: 40px;
+}
 *{
     text-align: center;
 }
@@ -37,9 +40,14 @@ margin-right: auto;
 margin-left: auto;
 }
 
+li{
+    background-color: rgb(237, 166, 126);
+    border-radius: 10px;
+    width:425px; 
+}
 ul{
     list-style-type: none;
-    width: 700px;
+    width: 1000px;
     column-count: 2;
     margin-left: auto;
     margin-right: auto;
