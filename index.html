@@ -2,14 +2,20 @@
  <html>
     <link href="css/styles.css" rel="stylesheet">
    <head>
-    <audio controls autoplay src="css/Music/Neil Richardson - Riviera Affair.mp3" loop="true">
+    <audio id="player" autoplay src="css/Music/Neil Richardson - Riviera Affair.mp3" loop="true">
     </audio>
+    <div> 
+        <button onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-down-button.png"></button> 
+        <button onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button> 
+        <button onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button> 
+        <button onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-up-button.png"></button> 
+      </div>
      <h1>MOOD MUSIC</h1>
    </head>
    <body>
      <ul>
         <li>
-            <a href="entry-1.html">Goove to the beat</a>
+            <a href="entry-1.html">Groove to the beat</a>
         </li>
         <li>
             <a href="entry-2.html">In my Own Zone</a>

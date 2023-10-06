@@ -3,9 +3,15 @@
     <link href="css/entry-1.css" rel="stylesheet">
     <head>
         <a>1</a>
-        <div align-content="center"><audio controls autoplay src="css/Music/KAYTRANADA - Intimidated ft. H.E.R..mp3" loop="true">
-        </audio></div>
-        <div><img src="css/gifs/disco-ball.gif"></div>
+        <audio id="player" autoplay src="css/Music/KAYTRANADA - Intimidated ft. H.E.R..mp3" loop="true">
+        </audio>
+        <div> 
+            <button onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-down-button.png"></button> 
+            <button onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button> 
+            <button onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button> 
+            <button onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-up-button.png"></button> 
+        </div>
+        <div><img class="discoball" src="css/gifs/disco-ball.gif"></div>
         <title>GROOVY</title>
         <h1>Groovy</h1>
     </head>

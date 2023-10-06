@@ -11,6 +11,12 @@ audio{
     text-align: center;
 }
 
+button{
+    border-radius: 30%;
+    background-color: orange;
+    margin-top: 30px;
+}
+
 h1 {
     font-family: Redaction50-Bold;
 color: black;
@@ -36,7 +42,7 @@ li{
     margin-right: auto;
     background-color: black;
     border-radius: 10px;
-    width:425px; 
+    width:450px; 
 }
 ul{
     list-style-type: none;

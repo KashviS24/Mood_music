@@ -2,10 +2,6 @@ Body{
     background-color:rgb(14, 14, 56);
 }
 
-audio{
-    align-content:center;
-}
-
 h1{
     position: absolute;
     color:red;
@@ -19,15 +15,24 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+*{
+    text-align: center;
+}
+button{
+    place-items: center;
+    border-radius: 30%;
+    background-color: rgb(23, 6, 72);
+}
 
 a{
     color: aliceblue;
     font-size: 40px;
+    float: left;
     margin-left: 5px;
     font-family: Redaction50-Bold;
 }
 
-img{
+.discoball{
     float:right;
     margin-top: 30px;
     transform: rotate(15deg);
