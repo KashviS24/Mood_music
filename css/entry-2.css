@@ -6,6 +6,7 @@ body{
 a{
     color: aliceblue;
     font-size: 40px;
+    float: left;
     margin-left: 5px;
     font-family: Redaction50-Bold;
 }
@@ -13,4 +14,13 @@ a{
 @font-face{
     font-family: Redaction50-Bold;
     src: url(Fonts/Redaction50-Bold.otf)
+}
+
+*{
+    text-align: center;
+}
+button{
+    place-items: center;
+    border-radius: 30%;
+    background-color: rgb(191, 47, 11);
 }
