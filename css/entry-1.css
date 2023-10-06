@@ -2,6 +2,10 @@ Body{
     background-color:rgb(14, 14, 56);
 }
 
+audio{
+    align-content:center;
+}
+
 h1{
     position: absolute;
     color:red;
@@ -16,9 +20,16 @@ h1{
     margin-right: auto;
 }
 
+a{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 5px;
+    font-family: Redaction50-Bold;
+}
+
 img{
     float:right;
-    margin-top: 50px;
+    margin-top: 30px;
     transform: rotate(15deg);
     width: 700px;
     max-height: auto;
@@ -26,6 +37,11 @@ img{
 @font-face{
     font-family: Verdana-Bold-Italic;
     src: url(Fonts/Verdana-Bold-Italic.ttf)
+}
+
+@font-face{
+    font-family: Redaction50-Bold;
+    src: url(Fonts/Redaction50-Bold.otf)
 }
 
 h2{
