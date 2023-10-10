@@ -1,6 +1,8 @@
 body{
     background-image: url(gifs/trance-1.gif);
     background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 a{
@@ -22,5 +24,13 @@ a{
 button{
     place-items: center;
     border-radius: 30%;
-    background-color: rgb(191, 47, 11);
+    background-color: black;
+}
+
+.trance_1{
+ float: left;
+ margin-top: 480px;
+ margin-left: 30px;
+ width: 250px;
+ height:auto;
 }
