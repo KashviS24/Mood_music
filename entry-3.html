@@ -2,6 +2,15 @@
 <html>
     <link href="css/entry-3.css" rel="stylesheet">
     <head>
+        <a>1</a>
+        <audio id="player" autoplay src="css/Music/Erik Satie - Gymnopédie No.1.mp3" loop="true">
+        </audio>
+        <div> 
+            <button onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-down-button.png"></button> 
+            <button onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button> 
+            <button onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button> 
+            <button onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-up-button.png"></button> 
+        </div>
         <title>CLASSICAL MUSIC</title>
         <h1>Just Melodies</h1>
     </head>
