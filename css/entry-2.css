@@ -34,3 +34,10 @@ button{
  width: 250px;
  height:auto;
 }
+
+.trance_2{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 5%;
+}
