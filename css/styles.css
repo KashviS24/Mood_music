@@ -2,6 +2,7 @@ Body{
     margin-top: auto;
     margin-bottom: auto;
     background-color:orangered;
+    overflow: hiddens;
 }
 
 audio{
