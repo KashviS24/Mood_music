@@ -1,5 +1,7 @@
 Body{
     background-color: rgb(118, 214, 206);
+    height: 1100px;
+    overflow: scroll;
 }
 
 h1{
@@ -32,6 +34,7 @@ button{
     place-items: center;
     border-radius: 30%;
     background-color: rgb(52, 44, 22);
+    box-shadow: 0 10px 10px rgb(9, 34, 34);
 }
 
 .vinyl-grid{
@@ -50,6 +53,8 @@ button{
 .vinyl img{
     max-width: 100%;
     display: block;
+    border-radius: 5%;
+    box-shadow: 0 0 18px rgb(9, 34, 34);
 }
 
 .footers{

@@ -23,6 +23,7 @@ h1{
 button{
     place-items: center;
     border-radius: 30%;
+    box-shadow: 0 10px 10px rgb(2, 2, 19);
     background-color: yellowgreen;
 }
 
