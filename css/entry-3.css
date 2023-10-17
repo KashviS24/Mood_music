@@ -65,7 +65,7 @@ button{
 }
 
 .footers{
-    font-family: Verdana-Bold-Italic;
+    font-family: Redaction50-Bold;
 }
 
 .right-bottom-text {
@@ -74,7 +74,6 @@ button{
     right: 0;
     padding: 10px;
     color: black;
-    font-family: Verdana-Bold-Italic;
   }
 
 .left-bottom-text {
@@ -83,7 +82,6 @@ button{
   left: 0;
   padding: 10px;
   color: black;
-  font-family: Verdana-Bold-Italic;
 }
 
 @font-face{
