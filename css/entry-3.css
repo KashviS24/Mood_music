@@ -1,6 +1,9 @@
 Body{
-    background-image: url(img/sheet-music-1.jpeg);
+    background-image: url(img/sheet-music.png);
     background-size: cover;
+    background-position: center;
+    height: 1085px;
+    overflow: scroll;
 }
 
 h1{
@@ -46,4 +49,31 @@ button{
     place-items: center;
     border-radius: 30%;
     background-color: rgb(19, 10, 7);
+}
+
+.footers{
+    font-family: Verdana-Bold-Italic;
+}
+
+.right-bottom-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: black;
+    font-family: Verdana-Bold-Italic;
+  }
+
+.left-bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: black;
+  font-family: Verdana-Bold-Italic;
+}
+
+@font-face{
+    font-family: Verdana-Bold-Italic;
+    src: url(Fonts/Verdana-Bold-Italic.ttf)
 }

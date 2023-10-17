@@ -43,3 +43,30 @@ button{
     margin-right: 20px;
     border-radius: 5%;
 }
+
+.footers{
+    font-family: Verdana-Bold-Italic;
+}
+
+.right-bottom-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: black;
+    font-family: Verdana-Bold-Italic;
+  }
+
+.left-bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: black;
+  font-family: Verdana-Bold-Italic;
+}
+
+@font-face{
+    font-family: Verdana-Bold-Italic;
+    src: url(Fonts/Verdana-Bold-Italic.ttf)
+}
