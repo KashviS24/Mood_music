@@ -33,3 +33,48 @@ button{
     border-radius: 30%;
     background-color: rgb(52, 44, 22);
 }
+
+.vinyl-grid{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.vinyl{
+    text-align: center;
+}
+
+.vinyl img{
+    max-width: 100%;
+    display: block;
+}
+
+.footers{
+    font-family: Verdana-Bold-Italic;
+}
+
+.right-bottom-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: rgb(52, 44, 22);
+    font-family: Verdana-Bold-Italic;
+  }
+
+.left-bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: rgb(52, 44, 22);
+  font-family: Verdana-Bold-Italic;
+}
+
+@font-face{
+    font-family: Verdana-Bold-Italic;
+    src: url(Fonts/Verdana-Bold-Italic.ttf)
+}
