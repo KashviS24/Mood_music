@@ -29,6 +29,7 @@ button{
 }
 
 .trance_1{
+    position: relative;
  float: left;
  margin-top: 480px;
  margin-left: 30px;
@@ -41,6 +42,10 @@ button{
     float: right;
     margin-top: 30px;
     margin-right: 20px;
+    border-radius: 5%;
+}
+
+.trance_3{
     border-radius: 5%;
 }
 
