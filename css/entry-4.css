@@ -34,7 +34,7 @@ a{
     bottom: 0;
     right: 0;
     padding: 10px;
-    color: white;
+    color: #ff0000;
     font-family: Verdana-Bold-Italic;
   }
 
@@ -43,7 +43,7 @@ a{
   bottom: 0;
   left: 0;
   padding: 10px;
-  color: white;
+  color: #ff0000;
   font-family: Verdana-Bold-Italic;
 }
 
