@@ -1,13 +1,14 @@
 Body{
     background-color:rgb(14, 14, 56);
+    height: 1085px;
     overflow: scroll;
 }
 
 h1{
     position: absolute;
     color:red;
-    bottom: 200px;
-    left: 300px;
+    top:55%;
+    left: 30%;
     text-align: center;
     font-weight: bold;
     font-size: 800%;
@@ -22,7 +23,7 @@ h1{
 button{
     place-items: center;
     border-radius: 30%;
-    background-color: rgb(23, 6, 72);
+    background-color: yellowgreen;
 }
 
 a{
@@ -55,17 +56,82 @@ h2{
     color:rgb(4, 4, 119);
     width: 500px;
     text-align: center;
-    bottom: 400px;
-    left: 100px;
+    top: 34%;
+    left: 5%;
     font-weight: bold;
     font-size: 350%;
     font-family: Verdana-Bold-Italic;
     text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
     margin-left: auto;
     margin-right: auto;
-    animation: animate 40s linear infinite;
 }
 
-.image1{
-    align-content: baseline;
+.scrolling-text {
+    position: fixed;
+    bottom: 3%;
+    left: 0;
+    color: #da9f9f;
+    width: 120%;
+    padding: 10px;
+    animation: scrollText 25s linear infinite;
+    font-family: Verdana-Bold-Italic;
+  }
+
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .right-bottom-text {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        color: yellowgreen;
+        font-family: Verdana-Bold-Italic;
+      }
+
+.left-bottom-text {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+      color: yellowgreen;
+      font-family: Verdana-Bold-Italic;
+    }
+
+.gifs{
+    float: left;
+}
+
+.dance1{
+    border-radius: 5%;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+
+.dance2{
+    margin-left: 140%;
+    border-radius: 6%;
+}
+
+.dance3{
+margin-top: 4%;
+margin-left: 25%;
+border-radius: 10%;
+}
+
+h3{
+    position: absolute;
+    right: 7%;
+    top: 95%;
+    color:rgb(4, 4, 119);
+    font-weight: bold;
+    font-size: 350%;
+    font-family: Verdana-Bold-Italic;
+    text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
 }

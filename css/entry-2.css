@@ -1,8 +1,9 @@
 body{
     background-image: url(gifs/trance-1.gif);
     background-size: cover;
+    height: 1085px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 a{
@@ -33,6 +34,7 @@ button{
  margin-left: 30px;
  width: 250px;
  height:auto;
+ border-radius: 5%;
 }
 
 .trance_2{
