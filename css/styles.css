@@ -15,6 +15,7 @@ audio{
 button{
     border-radius: 30%;
     background-color: orange;
+    box-shadow: 0 10px 10px rgb(75, 49, 0);
     margin-top: 30px;
 }
 
@@ -26,6 +27,7 @@ font-size: 500%;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 10px;
+box-shadow: 0 10px 10px rgb(75, 49, 0);
 background-color: orange;
 border-radius: 10px;
 text-align: center;
@@ -38,6 +40,7 @@ text-align: center;
 
 .entries li{
     display: inline-block;
+    box-shadow:  0 10px 10px rgb(131, 52, 3);
     margin: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -70,4 +73,31 @@ a:hover {
     color: orange;
     background-color: transparent;
     text-decoration: underline;
+}
+
+.footers{
+    font-family: Verdana-Bold-Italic;
+}
+
+.right-bottom-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: orange;
+    font-family: Verdana-Bold-Italic;
+  }
+
+.left-bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: orange;
+  font-family: Verdana-Bold-Italic;
+}
+
+@font-face{
+    font-family: Verdana-Bold-Italic;
+    src: url(Fonts/Verdana-Bold-Italic.ttf)
 }
