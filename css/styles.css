@@ -9,15 +9,13 @@ Body{
     position: absolute;
   cursor: pointer;
   top: 10px;
-  margin: 0;
-  padding:0;
+  right: 10px;
 }
 
 .menu-icon img{
-    float:right;
-  right: 20px;
     width: 20%;
   height: auto;
+  margin-left:80%;
 }
 
 audio{
