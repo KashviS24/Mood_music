@@ -3,3 +3,15 @@ Body{
     height: 1085px;
     overflow: scroll;
 }
+
+@font-face{
+    font-family: Zapfino;
+    src: url(Fonts/Zapfino.ttf)
+}
+
+.heading{
+    font-family: Zapfino;
+    color:azure;
+    font-size: 650%;
+    text-align: center;
+}
