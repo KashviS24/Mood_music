@@ -2,7 +2,7 @@ Body{
     margin-top: auto;
     margin-bottom: auto;
     background-color:orangered;
-    overflow: hiddens;
+    overflow: hidden;
 }
 
 .menu-icon{
@@ -28,6 +28,7 @@ audio{
 
 button{
     border-radius: 30%;
+    cursor: pointer;
     background-color: orange;
     box-shadow: 0 10px 10px rgb(75, 49, 0);
     margin-top: 30px;

@@ -132,7 +132,8 @@ h2{
 }
 
 .dance2{
-    margin-left: 140%;
+    position: absolute;
+    left: 40%;
     border-radius: 6%;
 }
 

@@ -54,9 +54,8 @@ a{
 }
 
 .text-container {
-    width: 20%;
-    color: #fff;
     width: 100%;
+    color: #fff;
     height:auto;
   text-align: center;
   }
@@ -73,12 +72,12 @@ a{
   
   .white-text {
     color: #fff; /* White text */
-    margin: 10% 0 10px 5%;
+    margin: 7% 0 10px 5%;
   }
 
   .white-text-2{
     color: #fff; /* White text */
-    margin: 4% 0 10px 45%;
+    margin: 7% 0 10px 45%;
   }
   
   @keyframes typing {
