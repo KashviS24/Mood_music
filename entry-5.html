@@ -2,6 +2,7 @@
 <html>
     <link href="css/entry-5.css" rel="stylesheet">
 <head>
+    <script  src="js/entry-5.js"></script>
     <a>8</a>
     <audio id="player" autoplay src="css/Music/Santana - Oye Como Va.mp3" loop="true">
     </audio>
@@ -15,7 +16,9 @@
 </head>
 <body>
     <div class="vinyl-grid">
-        <div class="vinyl">
+        <div id="vinyl-1" class="vinyl">
+            <button type="button" onclick='document.getElementById("vinyl-1").innerHTML = "First retro song"'>Click Me!
+            </button>
             <img src="css/gifs/vinyl1.gif">
         </div>
         <div class="vinyl">
