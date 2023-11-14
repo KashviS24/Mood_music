@@ -52,6 +52,13 @@ button{
     box-shadow: 0 10px 10px rgb(18, 2, 38);
 }
 
-.about{
-    color:beige;
+.container{
+    display:grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+}
+
+.item-1{
+    grid-row-start: 1 / 2;
+    grid-column-start: 3 / 4;
 }
