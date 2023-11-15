@@ -2,6 +2,11 @@ Body{
     background: var(--bg-color);
     height: 1085px;
     overflow: scroll;
+    --transition: all 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+audio{
+    margin-top: 40px;
 }
 
 @font-face{
@@ -15,6 +20,7 @@ Body{
     background-color: var(--text-color);
     font-size: 650%;
     text-align: center;
+    height: 270px;
 }
 
 @font-face{
@@ -43,6 +49,7 @@ Body{
 }
 
 button{
+    margin-top: 10px;
     place-items: center;
     border-radius: 30%;
     background-color: var(--text-color);
@@ -51,23 +58,25 @@ button{
 
 .header{
     display:grid;
-    grid-template-rows: 100px;
+    grid-template-rows: 30px;
     grid-template-columns: 700px 80px 80px 600px;
 }
 
-.home-list{
-    width: 100px;
-    height: 100px;
+.item-1 .home-list{
+    width: 150px;
+    height: 150px;
 }
 
 @media (prefers-color-scheme: dark) {
     body {
       --bg-color: rgb(52, 14, 56);
       --text-color: beige;
+      --switch-shadow: 0px 0px 10px 3px rgba(222, 116, 238, 0.584) inset;
     }
     .light body {
         --bg-color: beige;
         --text-color: rgb(52, 14, 56);
+        --switch-shadow: 0px 0px 10px 3px rgb(69, 0, 75) inset;
     }
 }
 
@@ -144,7 +153,7 @@ button{
   }
 
   .theme-switch .label:hover .dark,
-  .theme-switch .label:hover .light {
+.theme-switch .label:hover .light {
     transform: rotate(360deg);
   }
 

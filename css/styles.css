@@ -200,13 +200,14 @@ a:hover {
     width: 30px;
    }
 
-  .theme-switch .ball {
+.theme-switch .ball {
     transform: translatex(0);
   }
   
   .dark .theme-switch .ball {
     transform: translatex(40px);
   }
+
   @media (prefers-color-scheme: dark) {
     .theme-switch .ball {
       transform: translatex(40px);
