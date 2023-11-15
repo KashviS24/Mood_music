@@ -118,6 +118,17 @@ button{
     transition: var(--transition);
   }
 
+  .theme-switch .ball {
+    transition: var(--transition);
+    background-color: var(--text-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+    height: 30px;
+    width: 30px;
+}
+
   .theme-switch .dark{
     color: beige;
   transform-origin: center center;
@@ -131,17 +142,6 @@ button{
     transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
     transform: rotate(0);
   }
-
-.theme-switch .ball {
-    transition: var(--transition);
-    background-color: var(--text-color);
-    position: absolute;
-    border-radius: 50%;
-    top: 5px;
-    left: 5px;
-    height: 30px;
-    width: 30px;
-}
 
 .theme-switch .ball {
     transform: translatex(0);
