@@ -137,7 +137,7 @@ button{
 }
 
 .theme-switch .light {
-    color: beige;
+    color: rgb(52, 14, 56);
     transform-origin: center center;
     transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
     transform: rotate(0);
