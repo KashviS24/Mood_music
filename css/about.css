@@ -18,8 +18,10 @@ audio{
     font-family: Zapfino;
     color: var(--bg-color);
     background-color: var(--text-color);
-    font-size: 650%;
+    font-size: 400%;
     text-align: center;
+    grid-column: 1 / 5;
+    grid-row: 2 / 5;
 }
 
 .item-5{
