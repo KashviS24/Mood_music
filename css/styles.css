@@ -72,7 +72,7 @@ text-align: center;
     src: url(Fonts/Redaction50-Bold.otf)
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
   .entries{
     display: grid;
     grid-template-columns: 450px;
