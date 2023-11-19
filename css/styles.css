@@ -2,7 +2,8 @@ Body{
     margin-top: auto;
     margin-bottom: auto;
     background-color:orangered;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background: var(--bg-color);
     --transition: all 0.3s cubic-bezier(0.76, 0, 0.24, 1);
 }
@@ -72,28 +73,53 @@ text-align: center;
     src: url(Fonts/Redaction50-Bold.otf)
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+  h1{
+    width: 330px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1{
+    width: 340px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1{
+    width: 540px;
+    font-size: 400%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h1{
+    width: 600px;
+  }
   .entries{
+    row-gap: 3%;
+    column-gap: 2%;
     display: grid;
-    grid-template-columns: 450px;
-    grid-template-rows: repeat(10, 75px);
+    column-count: 2;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: repeat(5, 75px);
+    justify-content: center;
   }
 }
 
 .entries li{
     display: inline-block;
     box-shadow:  0 10px 10px rgb(131, 52, 3);
-    margin: 2%;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin-right: 40px;
     background-color: black;
     border-radius: 10px;
     width:450px; 
 }
 .entries{
     list-style-type: none;
-    width: 1000px;
-    column-count: 2;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
