@@ -4,6 +4,24 @@ Body{
     overflow: scroll;
 }
 
+.header{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr 6fr;
+    grid-template-rows: 100px;
+    column-gap: 5px;
+  }
+
+.home-list{
+    height: 100%;
+    object-fit: contain;
+    float: right;
+}
+
+.entry-no{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
 h1{
     position: absolute;
     color:red;
@@ -25,6 +43,7 @@ button{
     border-radius: 30%;
     box-shadow: 0 10px 10px rgb(2, 2, 19);
     background-color: yellowgreen;
+    margin-top: 25px;
 }
 
 .menu-icon{
