@@ -97,16 +97,7 @@ text-align: center;
 @media screen and (min-width: 1000px) {
   h1{
     width: 600px;
-  }
-  .entries{
-    row-gap: 3%;
-    column-gap: 2%;
-    display: grid;
-    column-count: 2;
-    grid-template-columns: 450px 450px;
-    grid-template-rows: repeat(5, 75px);
-    justify-content: center;
-  }
+  } 
 }
 
 .entries li{
@@ -119,13 +110,21 @@ text-align: center;
     width:450px; 
 }
 .entries{
+  margin:2%;
+  row-gap: 5%;
+  column-gap: 2%;
+  display: grid;
     list-style-type: none;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
     font-size: 300%;
     font-family: Redaction50-Bold;
-}
+    column-count: 2;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: repeat(5, 75px);
+    justify-content: center;
+  }
 
 a:link {
     color: rgb(211, 129, 75);
@@ -172,6 +171,7 @@ a:hover {
     font-family: Redaction50-Bold;
     color: rgb(247, 175, 126);
     color: var(--text-color);
+    margin-top: 60px;
     margin-bottom: 70px;
 }
 
