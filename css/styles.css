@@ -54,6 +54,28 @@ button{
     margin-top: 30px;
 }
 
+.song-slider{
+ width: 100%;
+ position: relative;
+}
+
+.seek-bar{
+  -webkit-appearance: none;
+  width: 20%;
+  border-radius: 10px;
+  background-color: var(--text-color);
+  height: 5px;
+  overflow: hidden;
+}
+
+.seek-bar::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 5px;
+  height: 20px;
+  background-color: white;
+  box-shadow: -400px 0 0 400px white;
+}
+
 h1 {
     font-family: Redaction50-Bold;
 color: var(--bg-color);
@@ -73,39 +95,73 @@ text-align: center;
     src: url(Fonts/Redaction50-Bold.otf)
 }
 
-@media screen and (min-width: 300px) {
-  h1:before{
+@media screen and (min-width: 400px) {
+  h1{
     width: 330px;
     text-align: center;
+  }
+  .footers{
+    opacity: 30%;
+  }
+  .entries{
+    column-count: 1;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 600px) {
-  h1:before{
-    width: 340px;
+  h1{
+    width: 540px;
+    font-size: 400%;
     text-align: center;
   }
-  .footers:after{
+  .footers{
     opacity: 30%;
+  }
+  .entries{
+    column-count: 1;
+    column-gap: 2%;
+    grid-template-columns: 450px;
+    grid-template-rows: repeat(10, 58px);
   }
 }
 
 @media screen and (min-width: 800px) {
-  h1:before{
+  h1{
     width: 540px;
     font-size: 400%;
   }
-}
-@media screen and (min-width: 1000px) {
-  h1:before{
-    width: 600px;
-  } 
+  .footers{
+    opacity: 50%;
+  }
+  .entries{
+    column-count: 1;
+    text-align: center;
+    column-gap: 2%;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: repeat(5, 75px);
+  }
 }
 
-.entries li{
+@media screen and (min-width: 1000px) {
+  h1{
+    width: 600px;
+  } 
+  .footers{
+    opacity: 100%;
+  }
+  .entries{
+    column-count: 1;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: repeat(5, 75px);
+  }
+}
+
+.entries .list{
     display: inline-block;
     box-shadow:  0 10px 10px rgb(131, 52, 3);
     justify-content: center;
+    text-align: center;
     margin-right: 40px;
     background-color: black;
     border-radius: 10px;
@@ -115,17 +171,12 @@ text-align: center;
   margin:2%;
   row-gap: 5%;
   column-gap: 2%;
-  display: grid;
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 300%;
-    font-family: Redaction50-Bold;
-    column-count: 2;
-    grid-template-columns: 450px 450px;
-    grid-template-rows: repeat(5, 75px);
-    justify-content: center;
+  display: grid; 
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 300%;
+  font-family: Redaction50-Bold;
+  justify-content: center;
   }
 
 a:link {

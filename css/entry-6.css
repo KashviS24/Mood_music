@@ -2,15 +2,14 @@ Body{
     background-color:black;
     height: 1085px;
     overflow: scroll;
-    border: solid 1px rgb(248, 27, 130);
+    border: solid 1px rgb(27, 248, 101);
     /* round the corners */
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
     /* make it glow! */        
-    -webkit-box-shadow: 0px 0px 6px rgb(248, 27, 130);
-       -moz-box-shadow: 0px 0px 6px rgb(248, 27, 130);
-            box-shadow: 0px 0px 6px rgb(248, 27, 130);
+    box-shadow: inset 0 0 40px 10px rgb(27, 248, 101);
+            
 }
 
 .header{
@@ -21,7 +20,7 @@ Body{
   }
 
 a{
-    color: rgb(248, 27, 130);
+    color: rgb(27, 248, 101);
     font-size: 40px;
     float: left;
     margin-left: 5px;
@@ -47,8 +46,8 @@ a{
 button{
     place-items: center;
     border-radius: 30%;
-    box-shadow: 0 10px 10px rgb(173, 0, 81);
-    background-color: rgb(64, 19, 72);
+    box-shadow: 0 10px 10px rgb(27, 138, 64);
+    background-color: rgb(34, 57, 41);
     margin-top: 25px;
 }
 
@@ -61,7 +60,7 @@ button{
     bottom: 0;
     right: 0;
     padding: 10px;
-    color: rgb(248, 27, 130);
+    color: rgb(15, 36, 22);
   }
 
 .left-bottom-text {
@@ -69,5 +68,5 @@ button{
   bottom: 0;
   left: 0;
   padding: 10px;
-  color: rgb(248, 27, 130);
+  color: rgb(15, 36, 22);
 }
