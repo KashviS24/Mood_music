@@ -2,5 +2,33 @@
 <html>
     <link href="css/entry-7.css" rel="stylesheet">
     <head>
+        <div class="header">
+            <div class="item-1">
+                <a class="entry-no">7</a>
+            </div>
+            <div class="item-2">
+                <button class="vol-up-button" onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-up-button.png"></button>
+            </div>
+            <div class="item-3">
+                <button class="play-button" onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button>
+            </div>
+            <div class="item-4">
+                <button class="pause-button" onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button>
+            </div>
+            <div class="item-5">
+                <button class="vol-down-button" onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-down-button.png"></button>
+            </div>
+            <a href="index.html" s="item-1"><img class="home-list" src="css/img/notepad.png">
+            </a>
+        </div>
+        <audio id="player" autoplay src="css/Music/Sam Wills - 'Traingazing' ft. Honey Mooncie (Official Audio).mp3" loop="true">
+        </audio>
     </head>
+    <body>
+        </div>
+        <div class="footers">
+            <div class="right-bottom-text">Kashvi Shervegar</div>
+            <div class="left-bottom-text">Core: Interaction 1</div>
+        </div>
+    </body>
 </html>

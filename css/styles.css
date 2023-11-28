@@ -73,29 +73,31 @@ text-align: center;
     src: url(Fonts/Redaction50-Bold.otf)
 }
 
-@media screen and (max-width: 600px) {
-  h1{
+@media screen and (min-width: 300px) {
+  h1:before{
     width: 330px;
     text-align: center;
   }
 }
 
 @media screen and (min-width: 600px) {
-  h1{
+  h1:before{
     width: 340px;
     text-align: center;
+  }
+  .footers:after{
+    opacity: 30%;
   }
 }
 
 @media screen and (min-width: 800px) {
-  h1{
+  h1:before{
     width: 540px;
     font-size: 400%;
   }
 }
-
 @media screen and (min-width: 1000px) {
-  h1{
+  h1:before{
     width: 600px;
   } 
 }
@@ -142,6 +144,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.inform{
+  font-family: Redaction50-Bold;
+  color: rgb(247, 175, 126);
+  color: var(--text-color);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .footers{
     font-family: Redaction50-Bold
 }
@@ -165,14 +175,6 @@ a:hover {
 @font-face{
     font-family: Verdana-Bold-Italic;
     src: url(Fonts/Verdana-Bold-Italic.ttf)
-}
-
-.inform{
-    font-family: Redaction50-Bold;
-    color: rgb(247, 175, 126);
-    color: var(--text-color);
-    margin-top: 60px;
-    margin-bottom: 40px;
 }
 
 @media (prefers-color-scheme: dark) {
