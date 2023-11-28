@@ -26,6 +26,25 @@ button{
     place-items: center;
     border-radius: 30%;
     background-color: black;
+    margin-top: 25px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr 6fr;
+    grid-template-rows: 100px;
+    column-gap: 5px;
+  }
+
+.home-list{
+    height: 100%;
+    object-fit: contain;
+    float: right;
+}
+
+.entry-no{
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .trance_1{

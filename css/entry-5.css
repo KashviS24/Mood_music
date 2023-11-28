@@ -16,7 +16,7 @@ h1{
 }
 
 a{
-    color: aliceblue;
+    color: rgb(226, 65, 20);
     font-size: 40px;
     float: left;
     font-family: Redaction50-Bold;
@@ -36,6 +36,25 @@ button{
     border-radius: 30%;
     background-color: rgb(52, 44, 22);
     box-shadow: 0 10px 10px rgb(9, 34, 34);
+    margin-top: 25px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr 6fr;
+    grid-template-rows: 100px;
+    column-gap: 5px;
+  }
+
+.home-list{
+    height: 100%;
+    object-fit: contain;
+    float: right;
+}
+
+.entry-no{
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .vinyl-grid{

@@ -2,16 +2,28 @@
 <html>
     <link href="css/entry-4.css" rel="stylesheet">
     <head>
-    <a>4</a>
-    <audio id="player" autoplay src="css/Music/Ven pa ka - Black Motion.mp3" loop="true">
-    </audio>
-    <div> 
-        <button onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-down-button.png"></button> 
-        <button onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button> 
-        <button onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button> 
-        <button onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-up-button.png"></button>
-    </div>
-</head>
+        <div class="header">
+            <div class="item-1">
+                <a class="entry-no">4</a>
+            </div>
+            <div class="item-2">
+                <button class="vol-up-button" onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-up-button.png"></button>
+            </div>
+            <div class="item-3">
+                <button class="play-button" onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button>
+            </div>
+            <div class="item-4">
+                <button class="pause-button" onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button>
+            </div>
+            <div class="item-5">
+                <button class="vol-down-button" onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-down-button.png"></button>
+            </div>
+            <a href="index.html" s="item-1"><img class="home-list" src="css/img/notepad.png">
+            </a>
+        </div>
+        <audio id="player" autoplay src="css/Music/Ven pa ka - Black Motion.mp3" loop="true">
+        </audio>
+    </head>
 <body>
     <div class="text-container">
         <p class="typing-text white-text">

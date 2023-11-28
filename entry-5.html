@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
     <link href="css/entry-5.css" rel="stylesheet">
-<head>
-    <title>Retro</title>
-    <script  src="js/entry-5.js"></script>
-    <a>8</a>
-    <audio id="player" autoplay src="css/Music/Santana - Oye Como Va.mp3" loop="true">
-    </audio>
-    <div> 
-        <button onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-down-button.png"></button> 
-        <button onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button> 
-        <button onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button> 
-        <button onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-up-button.png"></button>
-    </div>
+    <head>
+        <div class="header">
+            <div class="item-1">
+                <a class="entry-no">5</a>
+            </div>
+            <div class="item-2">
+                <button class="vol-up-button" onclick="document.getElementById('player').volume += 0.1"><img src="css/img/vol-up-button.png"></button>
+            </div>
+            <div class="item-3">
+                <button class="play-button" onclick="document.getElementById('player').play()"><img src="css/img/play-button.png"></button>
+            </div>
+            <div class="item-4">
+                <button class="pause-button" onclick="document.getElementById('player').pause()"><img src="css/img/pause-button.png"></button>
+            </div>
+            <div class="item-5">
+                <button class="vol-down-button" onclick="document.getElementById('player').volume -= 0.1"><img src="css/img/vol-down-button.png"></button>
+            </div>
+            <a href="index.html" s="item-1"><img class="home-list" src="css/img/notepad.png">
+            </a>
+        </div>
+        <audio id="player" autoplay src="css/Music/Santana - Oye Como Va.mp3" loop="true">
+        </audio>
     <h1>Born In The Wrong Era</h1>
 </head>
 <body>
     <div class="vinyl-grid">
         <div id="vinyl-1" class="vinyl">
-            <button type="button" onclick='document.getElementById("vinyl-1").innerHTML = "First retro song"'>Click Me!
-            </button>
             <img src="css/gifs/vinyl1.gif">
         </div>
         <div class="vinyl">

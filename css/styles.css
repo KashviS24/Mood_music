@@ -172,7 +172,7 @@ a:hover {
     color: rgb(247, 175, 126);
     color: var(--text-color);
     margin-top: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,5 +1,39 @@
 Body{
-    background-color:rgb(173, 0, 81);
+    background-color:black;
     height: 1085px;
     overflow: scroll;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr 6fr;
+    grid-template-rows: 100px;
+    column-gap: 5px;
+  }
+
+a{
+    color: rgb(248, 27, 130);
+    font-size: 40px;
+    float: left;
+    margin-left: 5px;
+    font-family: Redaction50-Bold;
+}
+
+.home-list{
+    height: 100%;
+    object-fit: contain;
+    float: right;
+}
+
+.entry-no{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+button{
+    place-items: center;
+    border-radius: 30%;
+    box-shadow: 0 10px 10px rgb(173, 0, 81);
+    background-color: rgb(64, 19, 72);
+    margin-top: 25px;
 }
