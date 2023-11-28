@@ -1,11 +1,11 @@
 Body{
-    background-color:rgb(47, 54, 11);
+    background-color:rgb(3, 58, 13);
     height: 1085px;
     overflow: scroll;
 }
 
 a{
-    color: aliceblue;
+    color: rgb(225, 221, 221);
     font-size: 40px;
     float: left;
     font-family: Redaction50-Bold;
@@ -23,8 +23,8 @@ a{
 button{
     place-items: center;
     border-radius: 30%;
-    background-color: rgb(52, 44, 22);
-    box-shadow: 0 10px 10px rgb(18, 38, 2);
+    background-color: rgb(75, 93, 44);
+    box-shadow: 0 10px 10px rgb(16, 31, 31);
     margin-top: 25px;
 }
 
