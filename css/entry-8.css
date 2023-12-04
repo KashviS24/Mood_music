@@ -45,3 +45,23 @@ button{
     margin-top: 25px;
     margin-left: 25px;
 }
+
+.footers{
+    font-family: Redaction50-Bold;
+}
+
+.right-bottom-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: rgb(11, 84, 130);
+  }
+
+.left-bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: rgb(11, 84, 130);
+}
