@@ -67,3 +67,22 @@ button{
   color: rgb(22, 44, 52);
 }
 
+.song_name{
+    font-family: Redaction50-Bold;
+    color: rgb(89, 99, 103);
+  }
+
+
+.raindrop {
+    position: absolute;
+    background-color: rgb(131, 141, 151); /* Raindrop color, change as needed */
+    width: 4px; /* Raindrop width, change as needed */
+    height: 10px; /* Raindrop height, change as needed */
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
