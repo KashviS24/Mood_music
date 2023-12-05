@@ -110,6 +110,9 @@ text-align: center;
     grid-template-columns: 450px;
     grid-template-rows: repeat(10, 58px);
   }
+  .inform{
+    opacity: 100%;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -127,6 +130,9 @@ text-align: center;
     grid-template-columns: 400px 400px;
     grid-template-rows: repeat(5, 75px);
   }
+  .inform{
+    opacity: 100%;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -140,6 +146,9 @@ text-align: center;
     column-count: 1;
     grid-template-columns: 450px 450px;
     grid-template-rows: repeat(5, 75px);
+  }
+  .inform{
+    opacity: 100%;
   }
 }
 
