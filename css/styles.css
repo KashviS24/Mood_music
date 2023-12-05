@@ -90,6 +90,9 @@ text-align: center;
     column-count: 1;
     justify-content: center;
   }
+  .inform{
+    opacity: 0;
+  }
 }
 
 @media screen and (min-width: 600px) {

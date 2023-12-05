@@ -72,9 +72,15 @@ a{
     color: rgb(87, 51, 98);
   }
 
+  .snake-container {
+    position: relative;
+    height: 100vh;
+}
+
 .snake {
     position: absolute;
     white-space: nowrap;
     font-size: 18px;
     color: #fff;
+    animation-timing-function: linear;
 }
