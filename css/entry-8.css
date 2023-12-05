@@ -65,3 +65,40 @@ button{
   padding: 10px;
   color: rgb(11, 84, 130);
 }
+
+.song_name{
+    font-family: Redaction50-Bold;
+    color: rgb(107, 113, 116);
+  }
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.video {
+    width: 30%; /* Adjust the width as needed */
+}
+
+.input-container {
+    width: 75%; /* Adjust width as needed */
+    min-height: 7vh; /* Minimum height of 50% of the viewport height */
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden; /* To contain the expanding content */
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: beige;
+    opacity: 70%;
+    font-size: 16px;
+    resize: none; /* Disable textarea resizing */
+    border: none; /* Remove textarea border */
+    outline: none; /* Remove textarea outline */
+    overflow: scroll; /* To hide scrollbar */
+}

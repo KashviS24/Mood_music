@@ -23,8 +23,29 @@
         </div>
         <audio id="player" autoplay src="css/Music/Stop-This-Train-John-Mayer.mp3" loop="true">
         </audio>
+        <p class="song_name">
+            Stop This Train - John Mayer
+        </p>
     </head>
     <body>
+        <div class="video-container">
+            <video class="video" autoplay muted loop>
+                <source src="css/Video/Tree Leaves.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video" autoplay muted loop>
+                <source src="css/Video/Jersey_train.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video class="video" autoplay muted loop>
+                <source src="css/Video/feet in water.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="input-container">
+            <textarea placeholder="What is Home to you?" oninput="resizeTextarea(this)"></textarea>
+        </div>
+        <script src="js/entry-8.js"></script>
     </div>
     <div class="footers">
         <div class="right-bottom-text">Kashvi Shervegar</div>
