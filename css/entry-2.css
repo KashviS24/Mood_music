@@ -21,7 +21,7 @@ a{
 
 .song_name{
     font-family: Redaction50-Bold;
-    color: var(--text-color);
+    color: rgb(228, 101, 163);
   }
 
 *{
@@ -97,4 +97,17 @@ button{
 @font-face{
     font-family: Verdana-Bold-Italic;
     src: url(Fonts/Verdana-Bold-Italic.ttf)
+}
+
+svg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+text {
+    font-size: 8px;
+    fill: #fff;
+    white-space: nowrap;
+    transition: transform 2s linear;
 }
