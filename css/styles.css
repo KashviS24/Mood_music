@@ -54,6 +54,11 @@ button{
     margin-top: 30px;
 }
 
+.song_name{
+  font-family: Redaction50-Bold;
+  color: var(--text-color);
+}
+
 .song-slider{
  width: 100%;
  position: relative;

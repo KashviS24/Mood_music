@@ -3,7 +3,7 @@ Body{
     background-size:contain;
     background-position: center;
     height: 1085px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .harmonies{
@@ -32,6 +32,11 @@ Body{
     border-radius: 100px;
 }
 
+
+.song_name{
+    font-family: Redaction50-Bold;
+}
+
 a{
     color: rgb(244, 240, 239);
     font-size: 40px;
@@ -48,6 +53,11 @@ a{
 @font-face{
     font-family: SnellRoundhand;
     src: url(Fonts/SnellRoundhand.ttc)
+}
+
+@font-face{
+    font-family: Verdana-Bold-Italic;
+    src: url(Fonts/Verdana-Bold-Italic.ttf)
 }
 
 h2{
@@ -103,7 +113,35 @@ button{
   color: black;
 }
 
-@font-face{
-    font-family: Verdana-Bold-Italic;
-    src: url(Fonts/Verdana-Bold-Italic.ttf)
+.digital-clock {
+    width: 250px;
+    height: 50px;
+    float: right;
+    font-family: Redaction50-Bold;
+    background-color: beige;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin: 50px auto; /* Center the clock on the page */
+}
+
+.input-container {
+    width: 50%; /* Adjust width as needed */
+    margin: 50px auto; /* Center the box on the page */
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* To contain the expanding content */
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none; /* Disable textarea resizing */
+    border: none; /* Remove textarea border */
+    outline: none; /* Remove textarea outline */
 }

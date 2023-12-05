@@ -22,6 +22,12 @@ Body{
     margin-left: 25px;
 }
 
+.song_name{
+    font-family: Redaction50-Bold;
+    color: rgb(180, 170, 170);
+  }
+
+
 h1{
     position: absolute;
     color:red;
@@ -48,7 +54,8 @@ button{
 }
 
 .menu-icon{
-    position: fixed;
+    position: static;
+  cursor: pointer;
   top: 20px;
   right: 20px;
   cursor: pointer;

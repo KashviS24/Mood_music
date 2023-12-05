@@ -19,6 +19,11 @@ a{
     src: url(Fonts/Redaction50-Bold.otf)
 }
 
+.song_name{
+    font-family: Redaction50-Bold;
+    color: var(--text-color);
+  }
+
 *{
     text-align: center;
 }

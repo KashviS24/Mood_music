@@ -1,7 +1,7 @@
 Body{
     background-color:rgb(10, 71, 75);
     height: 1085px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 a{
@@ -66,3 +66,4 @@ button{
   padding: 10px;
   color: rgb(22, 44, 52);
 }
+
