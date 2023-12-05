@@ -49,6 +49,7 @@ button{
 
 .footers{
     font-family: Redaction50-Bold;
+    height: 100px;
 }
 
 .right-bottom-text {
@@ -89,11 +90,9 @@ button{
   }
 
 .theme-switch{
-    float: left;
     position: relative;
     display: flex;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin:auto;
  }
  
  .theme-switch .checkbox {
@@ -104,7 +103,6 @@ button{
  .theme-switch .label {
    display: flex;
    align-items: center;
-   float: left;
    justify-content: space-between;
    padding: 10px;
    border-radius: 50px;
@@ -115,6 +113,17 @@ button{
    box-shadow: var(--switch-shadow);
    transition: var(--transition);
  }
+ 
+ .theme-switch .ball {
+    transition: var(--transition);
+    background-color: var(--text-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+    height: 30px;
+    width: 30px;
+   }
  
  .theme-switch .dark{
      color: rgb(255, 255, 255);
@@ -130,26 +139,15 @@ button{
      transform: rotate(0);
    }
  
-   .theme-switch .ball {
-     transition: var(--transition);
-     background-color: var(--text-color);
-     position: absolute;
-     border-radius: 50%;
-     top: 5px;
-     left: 5px;
-     height: 30px;
-     width: 30px;
-    }
- 
  .theme-switch .ball {
      transform: translatex(0);
    }
    
-.dark .theme-switch .ball {
+   .dark .theme-switch .ball {
      transform: translatex(40px);
    }
  
-   @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
      .theme-switch .ball {
        transform: translatex(40px);
      }
@@ -167,3 +165,18 @@ button{
  *, ::after, ::before {
     box-sizing: border-box;
   }
+
+
+.audio-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.audio-player {
+    margin: 10px;
+}
+
+input[type="range"] {
+    width: 150px;
+}

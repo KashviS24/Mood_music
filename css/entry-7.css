@@ -66,3 +66,8 @@ a{
   padding: 10px;
   color: rgb(121, 122, 143);
 }
+
+.song_name{
+    font-family: Redaction50-Bold;
+    color: rgb(87, 51, 98);
+  }
