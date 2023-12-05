@@ -47,6 +47,21 @@ a{
     src: url(Fonts/Redaction50-Bold.otf)
 }
 
+@font-face{
+    font-family: Zapfino;
+    src: url(Fonts/Zapfino.ttf)
+}
+
+@font-face{
+    font-family: Bauer\ Bodoni\ Roman;
+    src:url(Fonts/Bauer\ Bodoni\ Roman.otf)
+  }
+
+  @font-face{
+    font-family: EksellSans;
+    src: url(Fonts/EksellSansTRIAL-Regular.otf)
+}
+
 .footers{
     font-family: Redaction50-Bold;
 }
@@ -72,15 +87,11 @@ a{
     color: rgb(87, 51, 98);
   }
 
-  .snake-container {
-    position: relative;
-    height: 100vh;
-}
-
-.snake {
+  .snake {
     position: absolute;
     white-space: nowrap;
+    font-family: Redaction50-Bold;
     font-size: 18px;
-    color: #fff;
+    color: #e6c9ea;
     animation-timing-function: linear;
 }

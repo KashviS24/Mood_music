@@ -1,46 +1,60 @@
 document.addEventListener("DOMContentLoaded", function () {
-    moveSnake("snake1");
-    moveSnake("snake2");
-    moveSnake("snake3");
-    moveSnake("snake4");
-});
+    const sentences = [
+        "Maybe I'll never know your name",
+        "But still, I'm filled with fascination",
+        "and as the platform falls away",
+        "I wonder where I will go.",
+        "Maybe, you like coffee with a cigarette",
+        "in the morning, as you watch the sun rise",
+        "and hold your friends and lovers close",
+        "silently, I wanna know.",
+        "'Cause I don't know who you are",
+        "But maybe we, in another life",
+        "From one another on an empty train",
+        "Getting lost in thought"
+    ];
 
-function moveSnake(snakeId) {
-    const snake = document.getElementById(snakeId);
+    sentences.forEach(function (sentence, index) {
+        createSnake(sentence, index);
+    });
 
-    // Set random initial position
-    snake.style.left = "0";
-    snake.style.top = Math.random() * window.innerHeight + "px";
+    function createSnake(sentence, index) {
+        const snake = document.createElement("div");
+        snake.classList.add("snake");
+        snake.textContent = sentence;
+        document.body.appendChild(snake);
 
-    // Set random animation duration and delay
-    snake.style.animationDuration = Math.random() * 8 + 4 + "s";
-    snake.style.animationDelay = Math.random() * 2 + "s";
+        // Set initial position and direction
+        let x = Math.random() * window.innerWidth;
+        let y = Math.random() * window.innerHeight;
+        let angle = Math.random() * 360;
+        let speed = 1 + Math.random() * 2;
 
-    // Set unique animation path for each snake
-    createKeyframes(snakeId);
-    snake.style.animationName = snakeId;
-}
+        // Set unique animation for each snake
+        snake.style.animation = `snakeAnimation${index} ${8 + Math.random() * 4}s linear infinite`;
 
-function createKeyframes(snakeId) {
-    const styleSheet = document.styleSheets[0];
-    const keyframes = `
-        @keyframes ${snakeId} {
-            0% {
-                transform: translate(0, 0);
+        // Move the snake
+        function moveSnake() {
+            const radians = angle * (Math.PI / 180);
+            x += Math.cos(radians) * speed;
+            y += Math.sin(radians) * speed;
+
+            // Bounce off the walls
+            if (x < 0 || x > window.innerWidth) {
+                angle = 180 - angle;
             }
-            25% {
-                transform: translate(50vw, ${Math.random() * 50 - 25}vh);
+            if (y < 0 || y > window.innerHeight) {
+                angle = 360 - angle;
             }
-            50% {
-                transform: translate(100vw, 0);
-            }
-            75% {
-                transform: translate(50vw, ${Math.random() * 50 - 25}vh);
-            }
-            100% {
-                transform: translate(0, 0);
-            }
+
+            // Set the snake's position
+            snake.style.left = x + "px";
+            snake.style.top = y + "px";
+
+            requestAnimationFrame(moveSnake);
         }
-    `;
-    styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
-}
+
+        // Start moving the snake
+        moveSnake();
+    }
+});

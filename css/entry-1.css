@@ -1,7 +1,7 @@
 Body{
     background-color:rgb(14, 14, 56);
     height: 1085px;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .header{

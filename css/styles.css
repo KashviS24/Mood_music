@@ -111,7 +111,7 @@ text-align: center;
     grid-template-rows: repeat(10, 58px);
   }
   .inform{
-    opacity: 100%;
+    opacity: 0;
   }
 }
 
