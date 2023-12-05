@@ -1,3 +1,7 @@
+function showAlert() {
+    alert("You clicked the image!");
+}
+
 function openPopup(imageSrc) {
     const popup = document.getElementById('popup');
     const popupImage = document.getElementById('popupImage');
@@ -10,3 +14,4 @@ function closePopup() {
     const popup = document.getElementById('popup');
     popup.style.display = 'none';
 }
+
