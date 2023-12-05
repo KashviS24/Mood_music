@@ -23,37 +23,46 @@
         </div>
         <audio id="player" autoplay src="css/Music/Santana - Oye Como Va.mp3" loop="true">
         </audio>
+        <p class="song_name">
+            Oye Como Va - Santana
+        </p>
     <h1>Born In The Wrong Era</h1>
+    <h2>~ So here are some other throwback numbers ~</h2>
 </head>
 <body>
+
     <div class="vinyl-grid">
-        <div id="vinyl-1" class="vinyl">
-            <img src="css/gifs/vinyl1.gif">
+        <div class="image-container" onclick="openPopup('vinyl1.gif')" class="vinyl">
+            <img src="css/gifs/vinyl1.gif" alt="vinyl-1">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl3.gif">
+        <div class="image-container" onclick="openPopup('vinyl3.gif')" class="vinyl">
+            <img src="css/gifs/vinyl3.gif" alt="vinyl-2">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl2.gif">
+        <div class="image-container" onclick="openPopup('vinyl2.gif')" class="vinyl">
+            <img src="css/gifs/vinyl2.gif"alt="vinyl-3">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl2.gif">
+        <div class="image-container" onclick="openPopup('vinyl2.gif')" class="vinyl">
+            <img src="css/gifs/vinyl2.gif" alt="vinyl-4">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl5.gif">
+        <div class="image-container" onclick="openPopup('vinyl5.gif')" class="vinyl">
+            <img src="css/gifs/vinyl5.gif" alt="vinyl-5">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl4.gif">
+        <div class="image-container" onclick="openPopup('vinyl4.gif')" class="vinyl">
+            <img src="css/gifs/vinyl4.gif" alt="vinyl-6">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl1.gif">
+        <div class="image-container" onclick="openPopup('vinyl1.gif')" class="vinyl">
+            <img src="css/gifs/vinyl1.gif" alt="vinyl-7">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl2.gif">
+        <div class="image-container" onclick="openPopup('vinyl2.gif')" class="vinyl">
+            <img src="css/gifs/vinyl2.gif" alt="vinyl-8">
         </div>
-        <div class="vinyl">
-            <img src="css/gifs/vinyl3.gif">
+        <div class="image-container" onclick="openPopup('vinyl3.gif')" class="vinyl">
+            <img src="css/gifs/vinyl3.gif" alt="vinyl-9">
         </div>
+    </div>
+    <div id="popup" class="popup" onclick="closePopup()">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <img id="popupImage" src="" alt="Popup Image">
     </div>
     <div class="footers">
         <div class="right-bottom-text">Kashvi Shervegar</div>
