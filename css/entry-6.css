@@ -12,6 +12,10 @@ Body{
             
 }
 
+*{
+    text-align: center;
+}
+
 .header{
     display: grid;
     grid-template-columns: 6fr 1fr 1fr 1fr 1fr 6fr;
@@ -71,3 +75,8 @@ button{
   padding: 10px;
   color: rgb(27, 248, 101);
 }
+
+.song_name{
+    font-family: Redaction50-Bold;
+    color: rgb(7, 121, 45);
+  }
