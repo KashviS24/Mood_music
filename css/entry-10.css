@@ -1,7 +1,7 @@
 Body{
     background: rgb(211, 174, 202);
     height: 1085px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 a{
