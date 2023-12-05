@@ -77,8 +77,8 @@ button{
     display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 40px;
-  padding: 30px;
+  gap: 10px;
+  padding: 20px;
   justify-content: center;
 }
 
@@ -118,7 +118,7 @@ button{
 
 .image-container {
     position: relative;
-    margin: 10px;
+    margin: 0;
     cursor: pointer;
 }
 
